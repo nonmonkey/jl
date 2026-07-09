@@ -1,0 +1,18 @@
+# 忽略所有编译后的class字节码文件
+*.class
+
+# IDEA自动生成的编译输出文件夹（out目录，存放全部class）
+out/
+target/
+
+# IDEA自身配置（可选，建议加上）
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# 系统文件
+.DS_Store
+
+# 测试文件
+/Test.java
