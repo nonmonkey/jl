@@ -1,4 +1,4 @@
-public class DataTypeDemo {
+public class DataType_ {
     public static void main(String[] args) {
 
         // ========== 一、基本数据类型（8种）==========
@@ -37,9 +37,9 @@ public class DataTypeDemo {
         // ========== 二、引用数据类型 ==========
         System.out.println("\n========== 引用数据类型 ==========");
 
-        // 1. 类（Class）包括 String、自定义类、包装类
+        // 1. base.类（Class）包括 String、自定义类、包装类
         String str = "Hello Java";       // String 是 Java 提供的类
-        DataTypeDemo demo = new DataTypeDemo(); // 自定义类
+        DataType_ demo = new DataType_(); // 自定义类
 
         System.out.println("String: " + str);
         System.out.println("自定义类: " + demo);
@@ -51,15 +51,15 @@ public class DataTypeDemo {
         System.out.println("数组 int[]: " + java.util.Arrays.toString(intArray));
         System.out.println("数组 String[]: " + java.util.Arrays.toString(stringArray));
 
-        // 3. 枚举（Enum）
+        // 3. base.枚举（Enum）
         enum Day {
             MONDAY, TUESDAY, WEDNESDAY, THURSDAY, FRIDAY, SATURDAY, SUNDAY
         }
         Day today = Day.MONDAY;
 
-        System.out.println("枚举: " + today);
+        System.out.println("base.枚举: " + today);
 
-        // 4. 接口（Interface）- 这里用匿名实现演示
+        // 4. base.接口（Interface）- 这里用匿名实现演示
         Runnable runnable = new Runnable() {
             @Override
             public void run() {
@@ -70,7 +70,7 @@ public class DataTypeDemo {
         // ========== 三、特殊关键字：void ==========
         System.out.println("\n========== 特殊关键字 void ==========");
 
-        DataTypeDemo.printHello();
+        DataType_.printHello();
     }
 
     // void 表示这个方法没有返回值

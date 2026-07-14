@@ -1,4 +1,4 @@
-public class StringBuilderDemo {
+public class StringBuilder_ {
     public static void main(String[] args) {
         // ========== String 的问题：不可变性 ==========
         System.out.println("========== String 的问题 ==========");
@@ -70,7 +70,7 @@ class AppendMethods {
         sb.append(new char[]{'J', 'a', 'v', 'a'});  // char数组
 
         System.out.println("结果: " + sb);
-        // 输出: Hello 123 3.14 true Java
+        // base.输出: Hello 123 3.14 true Java
 
         // 链式调用
         StringBuilder sb2 = new StringBuilder();
@@ -80,7 +80,7 @@ class AppendMethods {
                 .append("!")
                 .append(2024);
         System.out.println("链式调用: " + sb2);
-        // 输出: Hello World!2024
+        // base.输出: Hello World!2024
     }
 }
 
@@ -94,15 +94,15 @@ class InsertMethods {
         // 在指定位置插入
         sb.insert(5, " Beautiful");
         System.out.println("插入字符串: " + sb);
-        // 输出: Hello Beautiful World
+        // base.输出: Hello Beautiful World
 
         sb.insert(0, "Hi, ");
         System.out.println("插入到开头: " + sb);
-        // 输出: Hi, Hello Beautiful World
+        // base.输出: Hi, Hello Beautiful World
 
         sb.insert(sb.length(), "!!!");
         System.out.println("插入到末尾: " + sb);
-        // 输出: Hi, Hello Beautiful World!!!
+        // base.输出: Hi, Hello Beautiful World!!!
 
         // 插入各种类型
         StringBuilder sb2 = new StringBuilder("abc");
@@ -121,12 +121,12 @@ class DeleteMethods {
         // 删除指定范围 [start, end)
         sb.delete(5, 15);
         System.out.println("删除 'Beautiful ': " + sb);
-        // 输出: Hello World
+        // base.输出: Hello World
 
         // 删除单个字符
         sb.deleteCharAt(5);
         System.out.println("删除位置5的字符: " + sb);
-        // 输出: HelloWorld
+        // base.输出: HelloWorld
 
         // 清空所有内容
         sb.delete(0, sb.length());
@@ -144,12 +144,12 @@ class ReplaceMethods {
         // 替换指定范围 [start, end)
         sb.replace(6, 11, "Java");
         System.out.println("替换 'World' 为 'Java': " + sb);
-        // 输出: Hello Java
+        // base.输出: Hello Java
 
         // 替换单个字符
         sb.replace(0, 1, "h");
         System.out.println("替换首字母: " + sb);
-        // 输出: hello Java
+        // base.输出: hello Java
     }
 }
 
@@ -162,12 +162,12 @@ class ReverseMethod {
 
         sb.reverse();
         System.out.println("反转: " + sb);
-        // 输出: dlroW olleH
+        // base.输出: dlroW olleH
 
         // 再次反转恢复
         sb.reverse();
         System.out.println("再次反转: " + sb);
-        // 输出: Hello World
+        // base.输出: Hello World
 
         // 实用：判断回文
         String word = "racecar";

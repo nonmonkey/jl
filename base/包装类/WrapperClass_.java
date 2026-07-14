@@ -3,7 +3,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.HashMap;
 
-public class WrapperClassDemo {
+public class WrapperClass_ {
     public static void main(String[] args) {
         // 1. 基本类型不能放集合里
         // ArrayList<int> list = new ArrayList<>(); // ❌ 报错

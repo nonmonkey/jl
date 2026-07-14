@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class EnumDemo {
+public class Enum_ {
     public static void main(String[] args) {
         // ===== 1. 基本使用 =====
         System.out.println("===== 1. 基本使用 =====");
@@ -39,7 +39,7 @@ public class EnumDemo {
         // ===== 3. 根据字符串获取枚举 =====
         System.out.println("\n===== 3. 根据字符串获取枚举 =====");
         Season s = Season.valueOf("SUMMER");
-        System.out.println("Season.valueOf(\"SUMMER\") = " + s);
+        System.out.println("base.枚举.Season.valueOf(\"SUMMER\") = " + s);
 
         // ===== 4. ordinal() 获取序号 =====
         System.out.println("\n===== 4. ordinal() 获取序号 =====");
@@ -74,8 +74,8 @@ public class EnumDemo {
         System.out.println("RGB 值：" + red.getRgb());
         System.out.println("是否暖色：" + red.isWarm());
 
-        // ===== 8. 枚举 + 抽象方法（策略模式） =====
-        System.out.println("\n===== 8. 枚举 + 抽象方法 =====");
+        // ===== 8. base.枚举 + 抽象方法（策略模式） =====
+        System.out.println("\n===== 8. base.枚举 + 抽象方法 =====");
         System.out.println("10 + 5 = " + Operation.ADD.apply(10, 5));
         System.out.println("10 - 5 = " + Operation.SUBTRACT.apply(10, 5));
         System.out.println("10 * 5 = " + Operation.MULTIPLY.apply(10, 5));
@@ -152,7 +152,7 @@ enum Color implements ColorInfo {
 }
 
 /**
- * 4. 枚举 + 抽象方法（每个常量自己实现）
+ * 4. base.枚举 + 抽象方法（每个常量自己实现）
  */
 enum Operation {
     ADD {

@@ -1,4 +1,4 @@
-public class StringDemo {
+public class String_ {
     public static void main(java.lang.String[] args) {
         java.lang.String str = "Hello World";
         java.lang.String str2 = "  Hello  World  ";

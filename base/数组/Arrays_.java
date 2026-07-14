@@ -1,14 +1,14 @@
 import java.util.List;
 
-public class ArraysDemo {
+public class Arrays_ {
     public static void main(String[] args) {
         int[] arr = {5, 2, 9, 1};
         int[] arr2 = {1, 2, 5, 9};
         Integer[] integerArr = {5, 2, 9, 1};
         String[] strArr = {"apple", "banana", "cherry"};
 
-        // ==================== 一、打印 ====================
-        System.out.println("\n========== 一、打印 ==========");
+        // ==================== 一、base.打印 ====================
+        System.out.println("\n========== 一、base.打印 ==========");
         // toString()：将数组转换为字符串
         System.out.println("toString: " + java.util.Arrays.toString(arr));
         // deepToString()：打印多维数组内容
