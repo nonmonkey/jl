@@ -13,14 +13,7 @@ Collection（接口）
 │   └── TreeSet（类）────── 自动排序
 │
 └── Queue（接口）──────── 队列（FIFO）
-        ├── Deque（接口）──── 双端队列
-        │   ├── ArrayDeque（类）⭐ 推荐
-        │   └── LinkedList（类）← 上面已列出
-        └── PriorityQueue（类）── 优先级队列
-
-Map (接口) ─────────────── 键值对（独立体系，不继承 Collection）
-├── HashMap (类) ⭐ 最常用
-├── LinkedHashMap (类)
-├── TreeMap (类)
-├── Hashtable (类) 【旧】
-└── ConcurrentHashMap (类) 【并发专用】
+    ├── Deque（接口）──── 双端队列
+    │   ├── ArrayDeque（类）⭐ 推荐
+    │   └── LinkedList（类）← 上面已列出
+    └── PriorityQueue（类）── 优先级队列

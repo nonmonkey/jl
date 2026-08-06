@@ -1,3 +1,14 @@
+/**
+ * Java 数据类型总结
+ * 一、基本数据类型（8种）
+ * byte short int long
+ * float double
+ * char
+ * boolean
+ * 二、引用数据类型
+ * 类、接口、数组、枚举
+ * 三、void：不是数据类型，表示方法无返回值
+ */
 public class DataType_ {
     public static void main(String[] args) {
 

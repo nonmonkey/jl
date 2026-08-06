@@ -107,12 +107,12 @@ interface Swimmable {
     void swim();
 }
 
-interface Runnable {
+interface Runnable2 {
     void run();
 }
 
 // 类用逗号分隔，可以实现多个接口
-class Duck implements Flyable, Swimmable, Runnable {
+class Duck implements Flyable, Swimmable, Runnable2 {
     private String name;
 
     public Duck(String name) {
@@ -136,7 +136,7 @@ class Duck implements Flyable, Swimmable, Runnable {
         System.out.println(name + " 在水里游泳 🏊");
     }
 
-    // 实现 Runnable 的方法
+    // 实现 Runnable2 的方法
     @Override
     public void run() {
         System.out.println(name + " 在岸上摇摇摆摆走路 🚶");
