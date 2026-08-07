@@ -1,3 +1,5 @@
+package base.工具类;
+
 import java.util.Optional;
 import java.util.OptionalInt;
 import java.util.OptionalDouble;
@@ -7,7 +9,6 @@ import java.util.List;
 import java.util.Arrays;
 import java.util.ArrayList;
 import java.util.NoSuchElementException;
-import java.util.function.Supplier;
 
 /**
  * Optional
